@@ -1,12 +1,12 @@
 body {
-    background-color: aquamarine;
+    background-color: rgb(245, 239, 177);
     font-family: sans-serif;
     color: rgb(237, 248, 249);
 }
 
 a
 {
-    color: aquamarine;
+    color: rgb(139, 255, 249);
 }
 
 #maincontent {
@@ -19,4 +19,16 @@ a
   background-position-x: center;
   text-align: center;
   overflow: auto; 
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 0px;
+  overflow-wrap: break-word;
+
+}
+
+#bee {
+    position: relative;
+    top: -300px;
+    left: 100px;
 }
