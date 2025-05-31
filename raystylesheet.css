@@ -4,9 +4,17 @@ body {
     color: rgb(237, 248, 249);
 }
 
+h1, h2, h3 {
+    text-decoration: underline;
+}
+p {
+    font-size: 18px;
+}
+
 a
 {
     color: rgb(139, 255, 249);
+    font-size: 18px;
 }
 
 #maincontent {
@@ -19,8 +27,8 @@ a
   background-position-x: center;
   text-align: center;
   overflow: auto; 
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-bottom: 15px;
   padding-top: 0px;
   overflow-wrap: break-word;
